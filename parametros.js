@@ -1,6 +1,6 @@
 // parâmetros de função
 
-              //2       //2
+//2       //2
 // function soma(numero1, numero2) {
 //   return numero1 + numero2;
 // }
@@ -23,21 +23,15 @@ function soma(numero1, numero2) {
   return numero1 + numero2;
 }
 
+//function multiplica(numero1, numero2) {
+//  return numero1 * numero2;
+//}
+
+//9    ///6
+//console.log(multiplica(soma(4, 5), soma(3, 3)));
+
 function multiplica(numero1 = 1, numero2 = 1) {
   return numero1 * numero2;
 }
 
-                            //9
-console.log(multiplica(soma(4, 5)))
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(multiplica(soma(4, 5)));
